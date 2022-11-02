@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,    
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "cityslug": "las-vegas",
+    "stateslug": "NV",
+    "service": "The effects of water damage can be catastrophic. But prompt action, such as contacting a company that specializes in water damage restoration, can help you cut the extent of the damage to your house."
+},
+{
+  "id": 2,    
+  "city": "Dallas",
+  "state": "Texas",
+  "cityslug": "dallas",
+  "stateslug": "TX",
+  "service": "The effects of water damage can be catastrophic. But prompt action, such as contacting a company that specializes in water damage restoration, can help you cut the extent of the damage to your house."
+},
+{
+  "id": 3,    
+  "city": "Miami",
+  "state": "Florida",
+  "cityslug": "miami",
+  "stateslug": "FL",
+  "service": "The effects of water damage can be catastrophic. But prompt action, such as contacting a company that specializes in water damage restoration, can help you cut the extent of the damage to your house."
+}
+]
