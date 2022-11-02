@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Static from "./pages/Static";
 import Directory from "./pages/Directory";
 import State from "./pages/State";
+import City from "./pages/City";
 import NoPage from "./pages/NoPage";
 
 function App() {  
@@ -15,7 +16,8 @@ function App() {
           <Route index element={<Home />} />          
           <Route path="static" element={<Static />} />          
           <Route path="directory" element={<Directory />} /> 
-          <Route path="directory/:stateslug" element={<State />} />            
+          <Route path="directory/:stateslug" element={<State />} /> 
+          <Route path="directory/:stateslug/:cityslug" element={<City />} />              
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

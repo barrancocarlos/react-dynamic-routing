@@ -1,5 +1,6 @@
 import Cities from "./data.json";
 import { Link } from "react-router-dom";
+import '../App.css';
 
 const State = () => {
   let stateName = window.location.pathname.split("/").pop();
@@ -49,6 +50,10 @@ const State = () => {
                   </div>
                 </div>
               );
+            } else {
+              return(
+              <p className="nomatch">No matches</p>
+              )
             }
           })}
         </div>
